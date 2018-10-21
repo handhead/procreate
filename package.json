@@ -1,0 +1,34 @@
+{
+  "name": "procreate",
+  "version": "0.0.0",
+  "description": "A productivity generator",
+  "main": "./lib/index.js",
+  "bin": {
+    "procreate": "./bin/procreate.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint lib bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handhead/procreate.git"
+  },
+  "keywords": [
+    "node.js",
+    "server",
+    "generator",
+    "scaffold"
+  ],
+  "author": "Vinícius Rodrigues <@viniciusclerod>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/handhead/procreate/issues"
+  },
+  "homepage": "https://github.com/handhead/procreate#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
